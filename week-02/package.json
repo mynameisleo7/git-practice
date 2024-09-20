@@ -1,0 +1,14 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "main": "fib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fib.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
