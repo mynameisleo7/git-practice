@@ -11,15 +11,21 @@ function fib(n) {
 
 //遞迴太恐怖，所以想了其他方法，從現實生活中列出數列的邏輯出發  
 function fib2(n){
-    let fibArr=[0,1]
+    let fibArr=[0,1] //前兩個元素
+
+    //列出第i個元素
     function addFib(i){
         fibArr.push(fibArr[i-1]+fibArr[i-2]);
     }
+
+    //利用for迴圈將數列完整列出
     if ( n>=2 ){
         for (let i = 2; i<=n ; i++ ){
             addFib(i);
         }
     }
+
+    //回傳要的數
     return fibArr[n];
 
 }
